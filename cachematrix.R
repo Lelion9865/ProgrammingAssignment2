@@ -5,7 +5,7 @@
 ## Simply change the function from mean to solve
 ## Some examples to test the function:
 ## x = matrix(c(4,0,0,1,0,0,1,0,0,2,2,0,0,0,0,1), 4, 4)
-## x = matrix(c(1,0,5,2,1,6,3,4,0))
+## x = matrix(c(1,0,5,2,1,6,3,4,0), 3, 3)
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
